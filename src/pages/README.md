@@ -1,0 +1,1 @@
+All pages will go in here as folders on their own
