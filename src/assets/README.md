@@ -1,0 +1,1 @@
+Different folders for images, videos, etc will be added here.
