@@ -2,10 +2,13 @@
 export default function Footer() {
     return(
     <>
-    <p className="text-3xl font-bold underline">Footer code goes here</p>
-    <h1 >
-      Hello world!
-    </h1>
+
+    <p>&copy; 2024 Globedam Ltd. All rights reserved.</p>
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
 
     </>
     )
