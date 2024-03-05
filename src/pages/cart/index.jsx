@@ -7,6 +7,8 @@ export default function Cart() {
             <Navbar />
             <p>Cart</p>
             <Footer />
+
+            <footer /> comment this out
         </>
     );
 }
