@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 export default function Register() {
     return (
@@ -35,7 +36,11 @@ export default function Register() {
         </div>
         
          <br />
-        <p>Already have an account? <a href="/login" className="text-blue-700 font-semibold">Log in</a></p>
+         <div>
+         <p>Already have an account? <Link  className="text-blue-700 font-semibold" to='/login'>Log In</Link>
+        </p>
+         </div>
+        
         </div>
 
         </div>
