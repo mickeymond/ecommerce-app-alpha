@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Register() {
     return (
-   <div className=" min-h-screen pt-10 bg-gradient-to-r from-slate-500 to-slate-800">
+   <div className=" min-h-screen pt-10 bg-gradient-to-r from-fuchsia-500 to-cyan-500">
    
    
-    <form  action="#"     className="  flex flex-col container mx-auto bg-white rounded-xl items-center space-x-3 max-w-sm ">
+    <form  action="#"     className=" background-filter backdrop-blur-sm bg-opacity-30 border-slate-400 shadow-lg flex flex-col container mx-auto bg-white rounded-xl items-center space-x-3 max-w-sm ">
      <div className="shadow-lg overflow-hidden pt-5">
      <h3 className="text-2xl  mb-4 text-center">Register Page</h3>
      <p className="px-2">Create a new account</p>
