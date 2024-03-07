@@ -27,7 +27,7 @@ export default function Checkout() {
                     id="email"
                     name="email"
                     placeholder="jane.doe@mest_alpha.com"
-                    class="mt-1 block w-full rounded border-gray-300 bg-gray-50 py-3 px-4 text-sm placeholder-gray-300 shadow-sm outline-none transition focus:ring-2 focus:ring-teal-500"
+                    class="mt-1 block w-full rounded border-gray-300 bg-gray-50 py-3 px-4 text-sm placeholder-gray-300 shadow-sm outline-none transition focus:ring-2 focus:ring-blue-500"
                   />
                 </div>
                 <div class="relative">
@@ -127,7 +127,7 @@ export default function Checkout() {
             <h2 class="sr-only">Order summary</h2>
             <div>
               <img
-                 src="https://images.unsplash.com/photo-1581318694548-0fb6e47fe59b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                 src="https://images.unsplash.com/photo-1589652717521-10c0d092dea9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
                 class="absolute inset-0 h-full w-full object-cover"
               />
@@ -138,13 +138,14 @@ export default function Checkout() {
                 <li class="flex justify-between">
                   <div class="inline-flex">
                     <img
-                    //   src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhhaXIlMjBkcnllcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                      src="https://images.unsplash.com/photo-1511385348-a52b4a160dc2?q=80&w=1507&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    
                       alt="ecommerce-app-alpha"
                       class="max-h-16"
                     />
                     <div class="ml-3">
                       <p class="text-base font-semibold text-white">
-                      Ecommerce-App-Alpha
+                      Laptop
                       </p>
                       <p class="text-sm font-medium text-white text-opacity-80">
                         Laptop
@@ -156,16 +157,16 @@ export default function Checkout() {
                 <li class="flex justify-between">
                   <div class="inline-flex">
                     <img
-                    //   src="https://images.unsplash.com/photo-1621607512214-68297480165e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGhhaXIlMjBkcnllcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                     src="https://images.unsplash.com/photo-1516044734145-07ca8eef8731?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       alt="ecommerce-app-alpha"
                       class="max-h-16"
                     />
                     <div class="ml-3">
                       <p class="text-base font-semibold text-white">
-                      Ecommerce-App-Alpha
+                      Wi-Fi
                       </p>
                       <p class="text-sm font-medium text-white text-opacity-80">
-                        Mi-Fi
+                        Wi-Fi
                       </p>
                     </div>
                   </div>
