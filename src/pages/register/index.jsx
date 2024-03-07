@@ -1,11 +1,11 @@
 
 export default function Register() {
     return (
-   <div className=" min-h-screen py-40 bg-gradient-to-r from-slate-500 to-slate-800">
+   <div className=" min-h-screen pt-10 bg-gradient-to-r from-slate-500 to-slate-800">
    
    
-    <form  action="#"     className="flex flex-col container mx-auto bg-white rounded-xl items-center space-x-3 max-w-sm ">
-     <div className="shadow-lg overflow-hidden">
+    <form  action="#"     className="  flex flex-col container mx-auto bg-white rounded-xl items-center space-x-3 max-w-sm ">
+     <div className="shadow-lg overflow-hidden pt-5">
      <h3 className="text-2xl  mb-4 text-center">Register Page</h3>
      <p className="px-2">Create a new account</p>
          <div className="px-5 py-6">
@@ -28,7 +28,7 @@ export default function Register() {
 
         <div className="mt-4">
         <input  type="checkbox" className="border border-black rounded-xl" /> 
-        <span>I accept <a href="#" className="text-blue-700 font-semibold">Terms of Use</a> &<a href="#"  className="text-blue-700 font-semibold">Privacy Policy</a></span>
+        <span>I accept <a href="#" className="text-blue-700 font-semibold">Terms of Use</a> <span> & </span><a href="#"  className="text-blue-700 font-semibold">Privacy Policy</a></span>
         </div>
         <div className="mt-5">
         <button className="w-full bg-black text-white rounded-xl py-2">Register Now</button>
