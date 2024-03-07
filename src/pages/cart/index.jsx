@@ -8,7 +8,8 @@ export default function Cart() {
             <p>Cart</p>
             <Footer />
 
-            <footer /> comment this out
+            
         </>
     );
 }
+
