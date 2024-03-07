@@ -2,9 +2,9 @@
 export default function Register() {
     return (
    <div className=" min-h-screen py-40 bg-gradient-to-r from-slate-500 to-slate-800">
-   <div className="  flex max-w-sm items-center mx-auto bg rounded-xl space-x-3">
    
-    <form  action="#"     className="flex flex-col container mx-auto bg-white rounded-xl">
+   
+    <form  action="#"     className="flex flex-col container mx-auto bg-white rounded-xl items-center space-x-3 max-w-sm ">
      <div className="shadow-lg overflow-hidden">
      <h3 className="text-2xl  mb-4 text-center">Register Page</h3>
      <p className="px-2">Create a new account</p>
@@ -40,7 +40,7 @@ export default function Register() {
 
         </div>
     </form>
-   </div>
+
    </div>
     );
 }
