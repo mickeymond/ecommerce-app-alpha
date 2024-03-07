@@ -1,8 +1,8 @@
 
 export default function Register() {
     return (
-   <div className=" min-h-screen py-40 bg-stone-400">
-   <div className=" flex max-w-sm items-center mx-auto bg rounded-xl space-x-3">
+   <div className=" min-h-screen py-40 bg-gradient-to-r from-slate-500 to-slate-800">
+   <div className="  flex max-w-sm items-center mx-auto bg rounded-xl space-x-3">
    
     <form  action="#"     className="flex flex-col container mx-auto bg-white rounded-xl">
      <div className="shadow-lg overflow-hidden">
