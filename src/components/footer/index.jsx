@@ -1,39 +1,59 @@
+import React from 'react';
+import { Typography } from "@material-tailwind/react";
 
 export default function Footer() {
-    return(
-
-    <>
-     const Footer = () => {
-
-<footer className="footer">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-6">
-        <h3>About Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet arcu non nisi tempor, a pulvinar lectus finibus.</p>
-      </div>
-      <div className="col-md-3">
-        <h3>Quick Links</h3>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/products">Products</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+  return ( 
+    <footer className="w-full bg-green p-8">
+      <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-green text-center md:justify-between">
+        <img src="https://docs.material-tailwind.com/img/logo-ct-dark.png" alt="logo-ct" className="w-10" />
+        <ul className="flex flex-wrap items-center gap-y-2 gap-x-8 bg-green">
+          <li>
+            <Typography
+              as="a"
+              href="#"
+              color="blue-gray"
+              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            >
+              About Us
+            </Typography>
+          </li>
+          <li>
+            <Typography
+              as="a"
+              href="#"
+              color="blue-gray"
+              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            >
+              License
+            </Typography>
+          </li>
+          <li>
+            <Typography
+              as="a"
+              href="#"
+              color="blue-gray"
+              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            >
+              Contribute
+            </Typography>
+          </li>
+          <li>
+            <Typography
+              as="a"
+              href="#"
+              color="blue-gray"
+              className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
+            >
+              Contact Us
+            </Typography>
+          </li>
         </ul>
       </div>
-      <div className="col-md-3">
-        <h3>Contact Us</h3>
-        <p>123 Street, City</p>
-        <p>Phone: 123-456-7890</p>
-        <p>Email: info@example.com</p>
-      </div>
-    </div>
-  </div>
-</footer>
-</>
-);
- };
-     
-
-
-    
+      <hr className="my-8 border-blue-gray-50" />
+      <Typography color="green-white" className="text-center font-normal bg-green">
+        &copy; 2023 Material Tailwind
+      </Typography>
+    </footer>
+   
+  )
+}
